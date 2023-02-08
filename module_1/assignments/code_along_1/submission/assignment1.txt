@@ -1,0 +1,126 @@
+Identify the 3 most popular frontend frameworks.
+ 
+1. React
+3. Vue.js
+2. Angular
+
+ ----- The strength of React framework ----
+
+1. Updates process is optimised and accelerated.
+2. JSX makes components/blocks code readable. It displays how components are plugged or combined with.
+3. React’s data binding establishes conditions for creation dynamic applications.
+4. Prompt rendering. Using comprises methods to minimise number of DOM operations helps to optimise updating process and accelerate it.
+5. Testable. React’s native tools are offered for testing, debugging code.
+6. SEO-friendly. React presents the first-load experience by server side rendering and connecting event-handlers on the side of the user:   1. React.renderComponentToString is called on the server. 2. React.renderComponent() is called on the client side. 3. React preserves markup rendered on the server side, attaches event handlers.  
+7. Up to date. Facebook team supports the library. Advice or code samples can be given by Facebook community.
+8. Using React+ES6/7, application gets high-tech and is suitable for highload systems.
+
+---- The weakness of React framework ----
+
+1. The high pace of development
+
+    The high pace of development has an advantage and disadvantage both. 
+    In case of disadvantage, since the environment continually changes so fast, some of the developers not feeling comfortable to relearn the new ways of doing things regularly. 
+    It may be hard for them to adopt all these changes with all the continuous updates. 
+    They need to be always updated with their skills and learn new ways of doing things.
+
+2. Poor Documentation
+
+    It is another cons which are common for constantly updating technologies. 
+    React technologies updating and accelerating so fast that there is no time to make proper documentation. 
+    To overcome this, developers write instructions on their own with the evolving of new releases and tools in their current projects.
+
+3. View Part
+
+    ReactJS Covers only the UI Layers of the app and nothing else. So you still need to choose some other technologies to get a complete tooling set for development in the project.
+
+4. JSX as a barrier
+
+    ReactJS uses JSX. It's a syntax extension that allows HTML with JavaScript mixed together. 
+    This approach has its own benefits, but some members of the development community consider JSX as a barrier, especially for new developers. 
+    Developers complain about its complexity in the learning curve.
+
+
+/////////////////////
+
+---- The strength of Vue.js framework ----
+
+1. Tiny size
+2. Virtual DOM rendering and performance
+3. Reactivity system and data binding options
+4. Flexible and Scalable Development Environment
+5. Easy to Use, Beginner-friendly
+
+---- The weakness of Vue.js framework ----
+
+1. Limitations in making use of the community
+
+    Many elements of the framework are only available in Chinese. Language barrier is the main obstacle to using this framework. 
+    Yet, among users, the Vue community is considered inventive in solving non-trivial issues.
+
+2. Risk of over flexibility
+
+    Vue offers significant flexibility, which offers a lot of freedom in using different approaches. 
+    Big projects can lead to problems with the inconsistency of code. 
+    In this situation Vue.js developers need to spend time reconciling the code, otherwise, different approaches can lead to more serious problems, like the different malfunctioning of applications and harder to get into the project development.
+
+3. Smaller number of components and plugins
+
+    In comparison to React, Vue.js developers can feel a bit of a lack of plugins and libraries. The most important ones exist in the Vue version, but more specific requirements can meet problems with founding fitting libraries.
+
+4. Difficulties with two-way binding
+
+    One of the cons of the Vue.js framework that the development team may face is related to binding. 
+    The fact is that the reactivity system in two-way binding re-renders only those parts of the code that were caused and often make mistakes when reading. 
+    Thus, for correct data processing, they need to be flattened.
+
+////////////////////////
+
+---- The strength of Angular framework ----
+
+1. MVC Architecture implementation
+
+    Model-View-Controller architecture, not only attaches value to the framework when creating a client-side app but also sets the foundation for the other features like data binding and scopes.
+    With MVC architecture, it is possible to isolate the app logic from the UI layer and support separation of concerns. 
+    The controller receives all requests for the app and operates with the model to prepare any data needed by the view. 
+    The view uses the data prepared by the controller and displays a final presentable response.
+
+2. Enhanced Design Architecture
+
+    Some of the large web applications contain a lot of components. Angular simplifies the way of managing these components even if a new programmer joins the project after the development process has already begun. 
+    The architecture is built in such a way that helps the programmer to locate and develop the code easily.
+
+3. Modules
+
+    A module is a mechanism that groups directives, components, pipes and services that are related, in such a way that can be combined with other modules in order to create an application The Angular-based app can be considered as a puzzle where each module is needed to be able to see the full picture. 
+    There are a number of ways to add different elements to a module. 
+    Angular solves the problem of global function exploitation by limiting the scope of all functions to the module, in which it was defined and used.
+
+4. Services and Dependency Injection (DI)
+
+    A service or component might sometimes need other dependent services to complete a task. 
+    A Dependency Injection design pattern is used in order to fulfill these dependencies. 
+    It divides the task among different services. The client service will not create the dependent object, rather it will be created and injected by an Angular injector. 
+    The Angular injector is responsible for creating service instances and injecting them into classes like components and services.
+
+
+---- The weakness of Angular framework ----
+
+1. Limited SEO options
+
+    A major drawback of using Angular is the limited SEO options and poor accessibility for search engine crawlers.
+
+2. Angular is verbose and complex
+
+    A frequent complaint that you would hear from the Angular developers is the verbosity of the instrument. 
+    And this problem hasn’t changed much since AngularJS.
+
+3. Step learning curve
+
+    If you onboard new developers who are familiar with JavaScript to use new Angular, they would find it difficult as compared to React or Vue onboarding. 
+    This is because the array of topics and aspects to be covered is quite large.
+
+4. CLI documentation is lacking details
+
+    Some developers express concerns with the current state of CLI documentation. 
+    While the command line is very useful fo Angular developers, you won’t find enough information in their official documentation on GitHub and you have to spend more time exploring threads on GitHub to get answers.
